@@ -1,0 +1,32 @@
+.browse-card{
+  padding:.5rem;
+  a, a:visited{
+    text-decoration: none;
+  }
+}
+.browse-card:hover{
+  transform:scale(1.0125);
+  transition-duration: .2s;
+}
+.browse-card-image{
+  max-height:225px;
+  margin:0px;
+  padding:0px;
+  overflow: hidden;
+}
+.browse-card-content{
+  border-bottom:1px solid $salmon;
+  border-left:1px solid $salmon;
+  border-right:1px solid $salmon;
+  padding:1rem;
+  h2,h3{
+    font-size:1.8rem;
+    margin-top:0px;
+    color:$indian-red;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color:$black-bean;
+  }
+}

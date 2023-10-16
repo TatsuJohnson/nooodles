@@ -1,0 +1,68 @@
+/* Colors */
+$black-bean: #3C1213ff;
+$indian-red: #f05155;
+$salmon: #E47F69;
+$fire-engine-red: #C32829ff;
+$champagne: #fdf7eb;
+
+// font-family: 'League Gothic', sans-serif;
+// font-family: 'Teko', sans-serif;
+
+
+/* Background color classes */
+.primary {
+  background-color: $indian-red;
+}
+
+.secondary {
+  background-color: $salmon;
+}
+
+.accent {
+  background-color: $fire-engine-red;
+}
+
+.cslight {
+  background-color: $champagne;
+}
+
+.black-bean {
+  background-color: $black-bean;
+}
+
+.indian-red {
+  background-color: $indian-red;
+}
+
+.salmon {
+  background-color: $salmon;
+}
+
+.fire-engine-red {
+  background-color: $fire-engine-red;
+}
+
+.champagne {
+  background-color: $champagne;
+}
+
+// text-color
+.text-primary {
+  color: $indian-red;
+}
+
+.text-secondary {
+  color: $salmon;
+}
+
+.text-accent {
+  color: $fire-engine-red;
+}
+
+.text-cslight {
+  color: $champagne;
+}
+
+.text-black-bean {
+  color: $black-bean;
+}

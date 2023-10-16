@@ -1,0 +1,42 @@
+.logo{
+	margin-top: -45px !important;
+}
+.logo a{
+	font-family: 'teko', sans-serif;
+	font-weight: 700;
+	font-size: 6em;
+	text-transform: uppercase;
+	color: $champagne;
+	padding-top: 0px;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: center;
+	font-family: 'League', sans-serif;
+	color: $champagne;
+	margin-top: 16px;
+
+	a,
+	a:visited {
+		font-size: 1.2rem;
+		color: $champagne;
+		text-decoration: none;
+	}
+}
+
+nav ul {
+	padding-left: 0px;
+}
+
+.light-nav {
+	ul li {
+		color: $indian-red;
+
+		a,
+		a:visited {
+			color: $indian-red;
+		}
+	}
+}

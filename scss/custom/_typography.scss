@@ -1,0 +1,56 @@
+h1{
+  font-family:'teko', sans-serif;
+  font-weight:700;
+  font-size:4em;
+  text-align:center;
+  color:$fire-engine-red;
+}
+h1.hero{
+  font-family:'teko', sans-serif;
+  font-weight:700;
+  font-size:7em;
+  text-transform:uppercase;
+  text-align:center;
+  color:$champagne;
+}
+h2{
+  font-family:'teko', sans-serif;
+  font-size:4em;
+  text-transform:uppercase;
+  color:$indian-red;
+  margin-bottom:2rem;
+}
+h3{
+  font-family: 'League', sans-serif;
+  font-weight:700;
+  color:$fire-engine-red;
+  margin-top:1.4rem;  
+}
+p{
+  line-height:2rem;
+  margin-bottom:1.5rem;
+}
+p, li, a{
+  font-family:'League', sans-serif;
+  font-size: 1.3rem;
+}
+a{
+  font-family:'League', sans-serif;
+}
+ul, ol{
+  margin-left: 0px;
+  margin-bottom: 2rem;
+  :first-child{
+    margin-top:0px;
+  }
+  li{
+    margin-top:1rem;
+  }
+}
+
+
+.sub-head{
+  text-align:center; 
+  font-size:1.5em;
+  color:$black-bean;
+}
